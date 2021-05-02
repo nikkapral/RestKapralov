@@ -1,0 +1,33 @@
+--Admins 1
+1.id
+2.username
+3.password_hash
+
+--Users 2
+1.id
+2.e-mail
+3.phone number
+
+-Order types 3
+1.id
+2.type
+3.price
+
+-Orders 4 
+1.id
+2.Order_types_id(FK) !!3 (one to many)
+3.Order_types_price
+3.User_id(FK) !!2 (one to one)
+4.Barbers_id(FK) !!5 (one to one)
+5.Date
+6.Time
+
+-Barbers 5
+1.id
+2.phone number
+3.sex
+4.years_old
+5.hire_date
+6.salary
+
+
